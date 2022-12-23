@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css">
+		<title>Cajero</title>
+	</head>
+	<body>
+		<h1>Calcular Cambio</h1>
+		<form action="#" id="form">
+			<label for="total">Precio del producto</label>
+			<span>	<input type="number" name="pagar" id="price" /></span>
+			<label for="cantidad">Efectivo del cliente</label>
+			<span><input type="number" name="cantidad" id="cash" /></span>
+			<input type="submit" id="calculate" value="calculate" />
+		</form>
+
+		<!-- RESTO --->
+		<div id="cambio"></div>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script async src="js/calculate.js"></script>
+	</body>
+</html>
